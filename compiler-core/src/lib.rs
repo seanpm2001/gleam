@@ -78,6 +78,7 @@ pub mod version;
 pub mod warning;
 
 mod call_graph;
+mod exhaustiveness;
 pub(crate) mod graph;
 
 pub use error::{Error, Result};
